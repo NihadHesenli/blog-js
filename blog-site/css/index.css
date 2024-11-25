@@ -1,0 +1,67 @@
+#nav{
+    margin: 40px 0 ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar h1 , .card h3{
+    color: brown;
+}
+
+.navbar input{
+    padding: 7px 10px;
+    width: 380px;
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a {
+    color: black;
+    font-size: 1.15rem;
+}
+
+#card{
+    margin: 40px 0;
+}
+
+.cards{
+    column-gap: 110px;
+    row-gap: 50px;
+    margin: 0 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    row-gap: 20px;
+    width: 25%;
+    border: 1px solid black;
+    padding: 15px;    
+}
+
+.delete{
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.edit{
+    padding: 10px 25px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
