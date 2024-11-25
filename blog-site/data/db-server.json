@@ -1,41 +1,40 @@
 {
-    "blogs": [
-      {
-        "id": "a027",
-        "title": "Quam perferendis et ",
-        "body": "Itaque veritatis in ",
-        "author": "dolor"
-      },
-      {
-        "id": "67bd",
-        "title": "Recusandae Cumque s",
-        "body": "Mollitia natus esse ",
-        "author": "ipsum"
-      },
-      {
-        "id": "6609",
-        "title": "blog 123",
-        "body": "lorem lorem lorem lorem lorem loremm",
-        "author": "ipsum"
-      },
-      {
-        "id": "3169",
-        "title": "blog Hitler",
-        "body": "1945 hitler won the war and killed all jews",
-        "author": "hitler"
-      },
-      {
-        "id": "1113",
-        "title": "blog U.S.A",
-        "body": "nah nigga skill issue",
-        "author": "churchill"
-      },
-      {
-        "id": "2432",
-        "title": "blog 123",
-        "body": "lorem ipsum dolor",
-        "author": "ipsum"
-      }
-
-    ]
-  }
+  "blogs": [
+    {
+      "id": "a027",
+      "title": "Quam perferendis et ",
+      "body": "Itaque veritatis in ",
+      "author": "dolor"
+    },
+    {
+      "id": "67bd",
+      "title": "Recusandae Cumque s",
+      "body": "Mollitia natus esse ",
+      "author": "ipsum"
+    },
+    {
+      "id": "6609",
+      "title": "blog 123",
+      "body": "lorem lorem lorem lorem lorem loremm",
+      "author": "ipsum"
+    },
+    {
+      "id": "3169",
+      "title": "blog Hitler",
+      "body": "1945 hitler won the war and killed all jews",
+      "author": "hitler"
+    },
+    {
+      "id": "1113",
+      "title": "blog U.S.A",
+      "body": "nah nigga skill issue",
+      "author": "churchill"
+    },
+    {
+      "id": "6609",
+      "title": "blog 123",
+      "body": "lorem lorem lorem lorem lorem loremm",
+      "author": "ipsum"
+    }
+  ]
+}

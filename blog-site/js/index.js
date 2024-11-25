@@ -33,6 +33,44 @@ function BlogCards(array){
                     </div>
         `
     });
+
+    const deleteBtns = document.querySelectorAll('.delete')
+
+
+    deleteBtns.forEach((btn)=>{
+        btn.addEventListener('click',function(){
+            const productId = this.getAttribute('data-id')
+            Swal.fire({
+                title: "Are you sure to delete product!?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, delete it!",
+              }).then((result) => {
+                if (result.isConfirmed) {
+                  deleteBlog(endpoints.blogs,productId, this);
+                  Swal.fire({
+                    title: "Deleted!",
+                    text: "Your file has been deleted.",
+                    icon: "success",
+                  });
+                }
+        })
+    })
+})
+
+
+    async function deleteBlog(endpoint,id,btn){
+        try {
+            const response = axios.delete(`${BASE_URL}/${endpoint}/${id}`)
+            btn.parentElement.parentElement.remove
+        } catch (error) {
+            console.error(error);
+            
+        }
+    }
 }
 
 getAllData(endpoints.blogs)
